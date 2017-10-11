@@ -1,0 +1,104 @@
+/* 
+========================================
+				General
+========================================
+*/
+
+@font-face {
+  font-family: "Klinic Slab Medium";
+  src: url("../assets/fonts/klinicslabmedium-webfont.woff2") format("woff2"),
+       url("../assets/fonts/klinicslabmedium-webfont.woff") format("woff");
+}
+
+body {
+	background: #233746;
+  color: #dbdbdb;
+	font-family: "Klinic Slab Medium", "Proxima Nova", "Open Sans", sans-serif;
+}
+
+/* 
+========================================
+				Headers
+========================================
+*/
+
+header {
+  padding-top: 40px;
+  padding-left: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/* 
+========================================
+				Navbar
+========================================
+*/
+
+
+
+
+
+/* 
+========================================
+				Main Section
+========================================
+*/
+
+.featurette-divider {
+  margin: 80px 0;
+  border-color: #dbdbdb;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.featurette-image {
+  max-height: 250px;
+  -webkit-box-shadow: -1px 1px 8px 1px #1b2a36;
+     -moz-box-shadow: -1px 1px 8px 1px #1b2a36;
+          box-shadow: -1px 1px 8px 1px #1b2a36;
+}
+
+p {
+  font-family: "Proxima Nova";
+}
+
+/* 
+========================================
+				Footer
+========================================
+*/
+
+footer li {
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  bottom: 30px;
+}
+
+footer small {
+  font-size: 0.8rem;
+  font-weight: 100;
+}
+
+.logo {
+  height: 40px;
+}
+
+.twitter {
+  height: 60px;
+}
