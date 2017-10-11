@@ -102,3 +102,46 @@ footer small {
 .twitter {
   height: 60px;
 }
+
+/* 
+========================================
+				Media Queries
+========================================
+*/
+
+@media only screen and (max-width: 767px) {
+  .featurette-image {
+    display: block;
+    width: auto;
+  }
+
+  .img-follow {
+    margin-top: 20px;
+  }
+
+  .img-lead {
+    margin-bottom: 20px;
+  }
+
+  header {
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+
+  h2, p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  footer li {
+    top: 3px;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .twitter {
+    height: 40px;
+  }
+}
